@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jax-ws xmlns="http://www.netbeans.org/ns/jax-ws/1">
+  <services>
+    <service name="MedicoDAO">
+      <implementation-class>DAO.MedicoDAO</implementation-class>
+    </service>
+    <service name="EspecializacaoDAO">
+      <implementation-class>DAO.EspecializacaoDAO</implementation-class>
+    </service>
+    <service name="LocalEspDAO">
+      <implementation-class>DAO.LocalEspDAO</implementation-class>
+    </service>
+  </services>
+  <clients/>
+</jax-ws>
